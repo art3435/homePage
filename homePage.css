@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;900&family=Poppins:wght@300&display=swap');
+
+
+ 
+body {
+    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.mainDiv {
+    display: inline-block;
+    height: 330px;
+}
+
+main {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+#logoID,
+.topDiv,
+.liTopList,
+.topList {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 28px;
+    color: hsl(236, 13%, 42%);
+    margin-bottom: 10px;
+}
+
+.topList {
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+
+#logoID {
+    width: 50px;
+    height: 40px;
+}
+
+.image {
+    box-sizing: border-box;
+    width: 700px;
+    height: 257px;
+}
+
+.asideDiv {
+    display: inline-block;
+    background-color: hsl(240, 100%, 5%);
+    width: 300px;
+    box-sizing: border-box;
+    margin: 0px 0px 20px 40px;
+
+}
+
+.asideH3 {
+    color: hsl(35, 77%, 62%);
+    font-weight: 1000;
+    margin-left: 10px;
+}
+
+.asideSubtitle,
+.topicsText {
+    color: white;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#topic2,
+#topic3 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+
+#middleText {
+    width: 150px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.middleP {
+    display: inline-block;
+    font-family: "Poppins";
+    font-size: 15px;
+    padding-left: 80px;
+    height: 70px;
+    width: 370px;
+}
+
+.middleH2 {
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 35px;
+    color: hsl(240, 100%, 5%);
+
+}
+
+#middleButton {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(5, 85%, 63%);
+    padding: 10px 35px 10px 35px;
+    border: hsl(35, 77%, 62%);
+    color: hsl(36, 100%, 99%);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.footerImage {
+    margin-top: 20px;
+    width: 110px;
+    height: 130px;
+}
+
+.footerP {
+    font-size: 8px;
+    display: block;
+}
+
+#footerP1 {
+    width: 240px;
+    display: block;
+
+}
+
+.footerTxt {
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+#bigFooter {
+    display: flex;
+}
+
+.footerNmb {
+    color: hsl(233, 8%, 79%);
+}
+
+.footerSubtitle {
+    color: hsl(236, 13%, 42%);
+}
+
+h4[class='footerSubtitle']:hover,
+.liTopList:hover {
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
+
+.asideSubtitle:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+#middleButton:hover {
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 12px;
+    margin-left: 380px;
+}
+
+.popUpImgsContent {
+    display: block;
+}
+
+.popUpImgs {
+    margin-left: 190px;
+}
+
+.popUpTxt {
+    width: 400px;
+    margin-left: 110px;  
+}
+
+#spanPopUp{
+    display:block;
+    margin-left: 110px;
+}
+
+#spanPopUp2{
+    margin-left: 87px;
+}
+
+.bigDivNew {
+    opacity: 0.6;
+}
+
+#closePopUpImg {
+    width: 30px;
+    height: 30px;
+    margin-left: 400px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+dialog{
+    border:none;
+    border-radius: 28px;
+}
+
+@media (max-width: 1200px){
+    .middleH2{
+     display: block;
+     margin: 30px 0px 20px 0px;
+    }
+
+    .middleP{
+        padding: 0px;
+        width: 260px;
+    }
+    
+    .asideDiv{
+        margin-top: -290px;
+        margin-left: 370px;
+    }
+
+    .footer{
+        width: 200px;
+        display: block;
+        margin: 0px 10px 0px 0px;
+    }
+
+    #footerSubtitle,
+    .footerSubtitle,
+    #footerP1{
+        width: auto;
+    }
+    main{
+        margin: 0px;
+    }
+
+    .attribution{
+        display: none;
+    }
+}
