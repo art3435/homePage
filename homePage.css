@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;900&family=Poppins:wght@300&display=swap');
 
-
- 
 body {
     margin-left: 30px;
     font-family: 'Inter', sans-serif;
+}
+
+header{
+    display: flex;
+
 }
 
 .mainDiv {
@@ -27,6 +30,10 @@ main {
     padding-right: 28px;
     color: hsl(236, 13%, 42%);
     margin-bottom: 10px;
+}
+
+.topDiv{
+    width: 90%;
 }
 
 .topList {
@@ -110,7 +117,8 @@ main {
 .footer {
     display: flex;
     justify-content: space-between;
-    margin-left: 50px;
+    margin-left: 100px;
+    box-sizing: border-box;
 }
 
 .footerImage {
@@ -127,16 +135,22 @@ main {
 #footerP1 {
     width: 240px;
     display: block;
-
 }
 
 .footerTxt {
     box-sizing: border-box;
     padding-left: 10px;
+    width: 10rem;
 }
 
 #bigFooter {
     display: flex;
+}
+
+#iconeGithub {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 3rem;
 }
 
 .footerNmb {
@@ -178,15 +192,15 @@ h4[class='footerSubtitle']:hover,
 
 .popUpTxt {
     width: 400px;
-    margin-left: 110px;  
-}
-
-#spanPopUp{
-    display:block;
     margin-left: 110px;
 }
 
-#spanPopUp2{
+#spanPopUp {
+    display: block;
+    margin-left: 110px;
+}
+
+#spanPopUp2 {
     margin-left: 87px;
 }
 
@@ -202,28 +216,28 @@ h4[class='footerSubtitle']:hover,
     cursor: pointer;
 }
 
-dialog{
-    border:none;
+dialog {
+    border: none;
     border-radius: 28px;
 }
 
-@media (max-width: 1200px){
-    .middleH2{
-     display: block;
-     margin: 30px 0px 20px 0px;
+@media (max-width: 1200px) {
+    .middleH2 {
+        display: block;
+        margin: 30px 0px 20px 0px;
     }
 
-    .middleP{
+    .middleP {
         padding: 0px;
         width: 260px;
     }
-    
-    .asideDiv{
+
+    .asideDiv {
         margin-top: -290px;
         margin-left: 370px;
     }
 
-    .footer{
+    .footer {
         width: 200px;
         display: block;
         margin: 0px 10px 0px 0px;
@@ -231,14 +245,32 @@ dialog{
 
     #footerSubtitle,
     .footerSubtitle,
-    #footerP1{
+    #footerP1 {
         width: auto;
     }
-    main{
+
+    main {
         margin: 0px;
     }
 
-    .attribution{
+    .attribution {
         display: none;
+    }
+
+    #iconeGithub {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-top: .4rem;
+        margin-left: 3rem;
+    }
+}
+@media (max-width: 600px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .topDiv{
+        width: auto;
     }
 }
