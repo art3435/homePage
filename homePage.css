@@ -182,11 +182,6 @@ h4[class='footerSubtitle']:hover,
     cursor: pointer;
 }
 
-.attribution {
-    font-size: 12px;
-    margin-left: 380px;
-}
-
 .popUpImgsContent {
     display: block;
 }
@@ -325,6 +320,27 @@ dialog {
     .menuBtn{
         display: inline-block;
         font-weight: bold;
+    }
+    dialog{
+        width: 80%;
+    }
+    .popUpImgs {
+        margin-left: 40px;
+    }
+    
+    .popUpTxt,
+    #spanPopUp
+     {
+        width: 230px;
+        margin-left: 40px;
+        text-align:left;
+    }
+    #closePopUpImg{
+        width: 20px;
+        margin-left: 90%;
+    }
+    #spanPopUp2{
+        margin: 0;
     }
 }
 
